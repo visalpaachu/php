@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="container"> <!--container div starts-->
+      <div class="contents"> <!--contents div start-->
+        <h1>Password Generator</h1> <!--heading-->
+        <!-- range -->
+        <input type="range" name="" id="range" class="slider"  min="1" max="12"   oninput="rangeValue.value=range.value">
+        <!-- output tag for range -->
+        <output for="range" id="rangeValue" class="range-value">8</output><br>
+        <!-- generate button  -->
+        <button class="generate-button">Generate</button><br>
+
+        <!-- password div starts  -->
+         
+          <input type="text" placeholder="Password" class="password-box hidden" readonly>
+
+
+         
+       
+      </div> <!--contents div ends -->
+    </div><!--container div ends -->
+
+    
+    
+   
+</body>
+<script src="script.js"></script>
+</html>
